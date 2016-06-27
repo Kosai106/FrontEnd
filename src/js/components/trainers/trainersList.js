@@ -10,8 +10,8 @@ class TrainersList extends React.Component {
   render() {
     return (
       <div className='row'>
-        <div>
-          <h1>Search &middot; 35 Coaches match your search</h1>
+        <div className="results">
+          <p><span>Search</span> • <span>35 Coaches</span> match your search</p>
         </div>
         <div className='col-md-8'>
           <div className='TrainerList'>

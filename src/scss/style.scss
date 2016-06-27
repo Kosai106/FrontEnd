@@ -18,6 +18,22 @@ body {
   margin: 0;
 }
 
+.results {
+  position: relative;
+  font-size: 19px;
+  top: 20px;
+  padding-left: 15px;
+  color: $medium-grey;
+  span:first-of-type {
+    color: $secondary;
+    font-size: 21px;
+    text-transform: uppercase;
+  }
+  span:last-of-type {
+    color: $dark-grey;
+  }
+}
+
 @import "./components/trainers";
 @import "./components/sidebar";
 @import "./components/footer";

@@ -35,6 +35,9 @@
     .discipline {
       font-size: 14px;
       color: $medium-grey;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     .details {
       i {

@@ -4,8 +4,8 @@ import            'whatwg-fetch';
 
 const trainers = [{
     "discipline": [
-      "Crossfit",
-      "Yoga",
+      "Crossfit, ",
+      "Yoga, ",
       "Fitness"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/stylecampaign/128.jpg",
@@ -27,8 +27,8 @@ const trainers = [{
   },
   {
     "discipline": [
-      "Power",
-      "Core Strength",
+      "Power, ",
+      "Core Strength, ",
       "Bodybuilding"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/annapickard/128.jpg",
@@ -50,9 +50,9 @@ const trainers = [{
   },
   {
     "discipline": [
-      "Core",
-      "Core",
-      "Balance"
+      "Core, ",
+      "Core, ",
+      "Balance, "
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/beastydesign/128.jpg",
     "about": "Enim elit excepteur adipisicing enim voluptate enim sit. Ea cupidatat culpa occaecat laboris. Pariatur dolore anim magna aliquip eu incididunt adipisicing elit laborum aliquip culpa proident. Est eu laborum proident magna aliqua quis. Irure sunt fugiat tempor sunt ad aliqua elit do ea laboris laborum aute do.\r\n",
@@ -73,8 +73,8 @@ const trainers = [{
   },
   {
     "discipline": [
-      "Power",
-      "Core Strength",
+      "Power, ",
+      "Core Strength, ",
       "Yoga"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/uxceo/128.jpg",
@@ -96,8 +96,8 @@ const trainers = [{
   },
   {
     "discipline": [
-      "Crossfit",
-      "Balance",
+      "Crossfit, ",
+      "Balance, ",
       "Core Strength"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/allisongrayce/128.jpg",
@@ -119,8 +119,8 @@ const trainers = [{
   },
   {
     "discipline": [
-      "Core",
-      "Yoga",
+      "Core, ",
+      "Yoga, ",
       "Fitness"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/mlane/128.jpg",
@@ -142,8 +142,8 @@ const trainers = [{
   },
   {
     "discipline": [
-      "Crossfit",
-      "Fitness",
+      "Crossfit, ",
+      "Fitness, ",
       "Bodybuilding"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/esthercrawford/128.jpg",
@@ -165,8 +165,8 @@ const trainers = [{
   },
   {
     "discipline": [
-      "Crossfit",
-      "Bodybuilding",
+      "Crossfit, ",
+      "Bodybuilding, ",
       "Core"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/chadengle/128.jpg",
@@ -188,8 +188,8 @@ const trainers = [{
   },
   {
     "discipline": [
-      "Core Strength",
-      "Bodybuilding",
+      "Core Strength, ",
+      "Bodybuilding, ",
       "Core Strength"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/jm_denis/128.jpg",
@@ -211,8 +211,8 @@ const trainers = [{
   },
   {
     "discipline": [
-      "Yoga",
-      "Core",
+      "Yoga, ",
+      "Core, ",
       "Balance"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg",
@@ -234,8 +234,8 @@ const trainers = [{
   },
   {
     "discipline": [
-      "Core",
-      "Core Strength",
+      "Core, ",
+      "Core Strength, ",
       "Balance"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/evagiselle/128.jpg",
@@ -257,9 +257,9 @@ const trainers = [{
   },
   {
     "discipline": [
-      "Bodybuilding",
-      "Bodybuilding",
-      "Bodybuilding"
+      "Bodybuilding, ",
+      "Bodybuilding, ",
+      "Bodybuilding, "
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/nuraika/128.jpg",
     "about": "Do Lorem ex esse proident nulla esse duis. Ad quis occaecat amet est sit cillum culpa fugiat esse id ipsum velit. Veniam dolore nulla consequat labore magna veniam dolor velit incididunt magna sint.\r\n",
@@ -280,8 +280,8 @@ const trainers = [{
   },
   {
     "discipline": [
-      "Fitness",
-      "Core Strength",
+      "Fitness, ",
+      "Core Strength, ",
       "Power"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/boheme/128.jpg",
@@ -303,8 +303,8 @@ const trainers = [{
   },
   {
     "discipline": [
-      "Core Strength",
-      "Balance",
+      "Core Strength, ",
+      "Balance, ",
       "Power"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/tutvid/128.jpg",
@@ -326,8 +326,8 @@ const trainers = [{
   },
   {
     "discipline": [
-      "Yoga",
-      "Bodybuilding",
+      "Yoga, ",
+      "Bodybuilding, ",
       "Core Strength"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg",
@@ -349,8 +349,8 @@ const trainers = [{
   },
   {
     "discipline": [
-      "Power",
-      "Bodybuilding",
+      "Power, ",
+      "Bodybuilding, ",
       "Core"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/dannpetty/128.jpg",
@@ -372,8 +372,8 @@ const trainers = [{
   },
   {
     "discipline": [
-      "Crossfit",
-      "Fitness",
+      "Crossfit, ",
+      "Fitness, ",
       "Crossfit"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg",
@@ -395,8 +395,8 @@ const trainers = [{
   },
   {
     "discipline": [
-      "Fitness",
-      "Core",
+      "Fitness, ",
+      "Core, ",
       "Yoga"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/krystynheide/128.jpg",
@@ -434,6 +434,7 @@ class Trainers extends React.Component {
   render() {
     const selectedPeople = this.filterPeople();
     const peopleElements = selectedPeople.map((trainer) => {
+      console.log(trainer.discipline);
       return(
         <div className='card--outer' key={trainer.guid}>
           <div className='card--inner'>
