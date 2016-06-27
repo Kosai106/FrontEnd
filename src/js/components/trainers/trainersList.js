@@ -1,6 +1,6 @@
-import React   from 'react';
-import Trainer from './trainers';
-import Sidebar from './../sidebar/sidebar';
+import React    from 'react';
+import Trainers from './trainers';
+import Sidebar  from './../sidebar/sidebar';
 
 class TrainersList extends React.Component {
   constructor(props){
@@ -15,7 +15,7 @@ class TrainersList extends React.Component {
         </div>
         <div className='col-md-8'>
           <div className='TrainerList'>
-            <Trainer />
+            <Trainers />
           </div>
         </div>
         <div className='col-md-4'>

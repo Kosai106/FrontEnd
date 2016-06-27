@@ -8,7 +8,7 @@ const trainers = [{
       "Yoga",
       "Fitness"
     ],
-    "picture": "http://placehold.it/100x100?text=Spoort",
+    "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/stylecampaign/128.jpg",
     "about": "Ex Lorem culpa ea ut incididunt amet exercitation. Ipsum cillum aute irure ad non tempor ad occaecat excepteur sit qui. Incididunt nisi ut tempor excepteur laborum elit. Occaecat qui consectetur magna do dolor irure adipisicing pariatur. Ut proident voluptate nostrud officia ipsum adipisicing ea amet ea ullamco. Officia nulla duis proident duis enim nisi deserunt duis aliqua enim do.\r\n",
     "guid": "32aa64f0-1a83-4b9b-8717-46abf9b2fc51",
     "name": "Sherry Kinney",
@@ -31,7 +31,7 @@ const trainers = [{
       "Core Strength",
       "Bodybuilding"
     ],
-    "picture": "http://placehold.it/100x100?text=Spoort",
+    "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/annapickard/128.jpg",
     "about": "Nulla occaecat laborum est anim ad in eiusmod eu sint eiusmod sint quis. Deserunt sint culpa nulla tempor. Id commodo pariatur Lorem aute. Consequat veniam duis et quis ea sunt. Eiusmod pariatur non do sit fugiat.\r\n",
     "guid": "b0942595-f034-445c-97c1-ae37aedc4b1f",
     "name": "Ilene Sykes",
@@ -54,7 +54,7 @@ const trainers = [{
       "Core",
       "Balance"
     ],
-    "picture": "http://placehold.it/100x100?text=Spoort",
+    "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/beastydesign/128.jpg",
     "about": "Enim elit excepteur adipisicing enim voluptate enim sit. Ea cupidatat culpa occaecat laboris. Pariatur dolore anim magna aliquip eu incididunt adipisicing elit laborum aliquip culpa proident. Est eu laborum proident magna aliqua quis. Irure sunt fugiat tempor sunt ad aliqua elit do ea laboris laborum aute do.\r\n",
     "guid": "152494fe-6f3c-40c7-823a-efc24b72c12a",
     "name": "Lang Roberson",
@@ -77,7 +77,7 @@ const trainers = [{
       "Core Strength",
       "Yoga"
     ],
-    "picture": "http://placehold.it/100x100?text=Spoort",
+    "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/uxceo/128.jpg",
     "about": "Excepteur incididunt nulla duis elit ut aliquip ut labore id ipsum. In do excepteur nostrud proident fugiat. Duis Lorem velit do cillum laboris ipsum in sint aliqua. Sunt deserunt ex enim non ex aliqua esse consequat sint et nisi deserunt. Non eu et eu ad reprehenderit anim. Cillum elit adipisicing do consequat esse.\r\n",
     "guid": "d9dba062-4189-4388-8a61-819b96ccaf9e",
     "name": "Elba Martin",
@@ -100,7 +100,7 @@ const trainers = [{
       "Balance",
       "Core Strength"
     ],
-    "picture": "http://placehold.it/100x100?text=Spoort",
+    "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/allisongrayce/128.jpg",
     "about": "Ea proident quis ipsum enim laborum aute culpa culpa elit consectetur. Proident esse duis tempor ut eu. Adipisicing sint est magna sunt Lorem. Laborum dolor culpa mollit commodo magna eu fugiat est culpa tempor est. Dolore quis est cillum aliqua ea laboris elit est pariatur ad anim. Esse ea magna do do exercitation tempor laboris sit non tempor reprehenderit exercitation reprehenderit irure.\r\n",
     "guid": "0f4240f9-be7a-4bb9-a95c-69704732e62c",
     "name": "Dorothea Glass",
@@ -123,7 +123,7 @@ const trainers = [{
       "Yoga",
       "Fitness"
     ],
-    "picture": "http://placehold.it/100x100?text=Spoort",
+    "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/mlane/128.jpg",
     "about": "Et nostrud dolor ullamco exercitation laborum fugiat reprehenderit ut culpa. Mollit velit ea elit eiusmod. Elit labore Lorem sit laborum ullamco nisi culpa ipsum irure et do esse. Mollit eiusmod labore mollit ex.\r\n",
     "guid": "b133216f-6411-40a1-9ed9-1ffafe0338be",
     "name": "Harper Castaneda",
@@ -146,7 +146,7 @@ const trainers = [{
       "Fitness",
       "Bodybuilding"
     ],
-    "picture": "http://placehold.it/100x100?text=Spoort",
+    "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/esthercrawford/128.jpg",
     "about": "Nostrud incididunt sunt fugiat exercitation elit adipisicing reprehenderit mollit aliquip consectetur. Proident anim aliqua irure eiusmod nostrud sunt ea dolor eiusmod in aute. Voluptate ut laborum velit aute est eu velit voluptate. Labore incididunt ea veniam cillum excepteur cillum.\r\n",
     "guid": "287bf696-ab1d-493e-9831-c5235003001e",
     "name": "Miriam Lawson",
@@ -169,7 +169,7 @@ const trainers = [{
       "Bodybuilding",
       "Core"
     ],
-    "picture": "http://placehold.it/100x100?text=Spoort",
+    "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/chadengle/128.jpg",
     "about": "Fugiat amet elit consequat duis ea velit amet. Nostrud proident nostrud laboris pariatur adipisicing ipsum ea laboris enim excepteur sit nulla do. Enim aute ullamco tempor est mollit in ea tempor et ad enim duis dolor. Irure pariatur pariatur irure eu do.\r\n",
     "guid": "28330fdc-5b9d-4cfe-8276-ea031c76d48a",
     "name": "Hester Spears",
@@ -192,7 +192,7 @@ const trainers = [{
       "Bodybuilding",
       "Core Strength"
     ],
-    "picture": "http://placehold.it/100x100?text=Spoort",
+    "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/jm_denis/128.jpg",
     "about": "Id ullamco commodo nulla Lorem ex. Est pariatur sint nulla aliquip aliquip aute qui magna. Sint officia ex ullamco dolor cupidatat ea duis id. Ipsum amet deserunt esse dolor. Velit esse mollit culpa aliqua qui labore occaecat consequat non Lorem anim cillum dolore. Aliquip aute esse amet in duis ex enim excepteur ad occaecat qui.\r\n",
     "guid": "96392dbe-f8ee-481c-ae76-2ee44468bb33",
     "name": "Harrison Lowe",
@@ -215,7 +215,7 @@ const trainers = [{
       "Core",
       "Balance"
     ],
-    "picture": "http://placehold.it/100x100?text=Spoort",
+    "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg",
     "about": "Sunt irure eu dolore mollit. Amet enim ad duis cillum qui. Sit ex enim nostrud sit pariatur ipsum proident eu elit. Elit eiusmod cupidatat laboris cupidatat tempor reprehenderit. Non occaecat qui non consectetur do elit incididunt ipsum. Ex qui occaecat Lorem qui.\r\n",
     "guid": "37e1da0d-58be-4e27-a424-0154b62bb034",
     "name": "Dale Blankenship",
@@ -238,7 +238,7 @@ const trainers = [{
       "Core Strength",
       "Balance"
     ],
-    "picture": "http://placehold.it/100x100?text=Spoort",
+    "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/evagiselle/128.jpg",
     "about": "Duis tempor aliqua cillum Lorem qui officia sunt do veniam ut. Magna eiusmod id aliqua laboris amet veniam elit voluptate tempor pariatur ex. Esse amet ullamco sint magna ex nostrud. Do quis ea irure duis. Irure aliquip exercitation fugiat irure qui consectetur aute voluptate tempor ipsum consequat voluptate elit nulla.\r\n",
     "guid": "672123ee-c0fa-4f76-af44-0c66b5f25175",
     "name": "Phyllis Knowles",
@@ -261,7 +261,7 @@ const trainers = [{
       "Bodybuilding",
       "Bodybuilding"
     ],
-    "picture": "http://placehold.it/100x100?text=Spoort",
+    "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/nuraika/128.jpg",
     "about": "Do Lorem ex esse proident nulla esse duis. Ad quis occaecat amet est sit cillum culpa fugiat esse id ipsum velit. Veniam dolore nulla consequat labore magna veniam dolor velit incididunt magna sint.\r\n",
     "guid": "5ffbd5a9-61b5-442c-9891-d4d4795dd477",
     "name": "Mable Osborn",
@@ -284,7 +284,7 @@ const trainers = [{
       "Core Strength",
       "Power"
     ],
-    "picture": "http://placehold.it/100x100?text=Spoort",
+    "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/boheme/128.jpg",
     "about": "Et eu labore consequat adipisicing velit culpa nostrud nulla. Aliquip qui qui non exercitation aliquip culpa dolor consectetur. Anim dolore aliqua elit ipsum sunt labore aliqua occaecat magna eiusmod reprehenderit ad adipisicing. Aliquip id incididunt mollit aute non qui ea laborum.\r\n",
     "guid": "2fbf3df8-a4b4-4c82-8913-69b3e9994c44",
     "name": "Randolph Nelson",
@@ -307,7 +307,7 @@ const trainers = [{
       "Balance",
       "Power"
     ],
-    "picture": "http://placehold.it/100x100?text=Spoort",
+    "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/tutvid/128.jpg",
     "about": "Quis minim laboris elit labore elit cillum dolore Lorem aliquip nisi ullamco culpa. Duis mollit esse labore aliquip sint incididunt. Consectetur voluptate duis cupidatat tempor ullamco quis adipisicing sit commodo. Do nostrud culpa culpa voluptate.\r\n",
     "guid": "d9f76660-56b2-4ea5-a519-99b82abc5d10",
     "name": "Guzman Cameron",
@@ -330,7 +330,7 @@ const trainers = [{
       "Bodybuilding",
       "Core Strength"
     ],
-    "picture": "http://placehold.it/100x100?text=Spoort",
+    "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg",
     "about": "Dolore aliqua sit occaecat exercitation nostrud quis eu ipsum adipisicing aliquip. Consectetur officia anim laborum proident aute non ex voluptate culpa et. Ad consequat commodo amet pariatur magna. Non consectetur non nisi reprehenderit et Lorem adipisicing aliqua enim irure eiusmod dolor. Pariatur ea ad velit est dolore est pariatur culpa ad dolore. Aliquip irure Lorem est nostrud sunt non nisi minim amet voluptate ad. Adipisicing aliqua officia ex ad.\r\n",
     "guid": "f1302811-5f8f-4405-90b7-51e15b96271f",
     "name": "Tameka Rowe",
@@ -353,7 +353,7 @@ const trainers = [{
       "Bodybuilding",
       "Core"
     ],
-    "picture": "http://placehold.it/100x100?text=Spoort",
+    "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/dannpetty/128.jpg",
     "about": "Ex ullamco amet officia id. Aliqua sint ipsum deserunt tempor amet veniam amet dolor nostrud. Eiusmod ullamco aute exercitation id commodo officia eu adipisicing. Officia nostrud non anim esse ut sint aliqua dolore dolore.\r\n",
     "guid": "5d270ef3-1b8b-460d-b156-75e5d2e620f7",
     "name": "Aguirre Mendoza",
@@ -376,7 +376,7 @@ const trainers = [{
       "Fitness",
       "Crossfit"
     ],
-    "picture": "http://placehold.it/100x100?text=Spoort",
+    "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg",
     "about": "Aliqua dolor dolor laboris laborum ipsum cupidatat et. Enim fugiat esse minim est aliqua ullamco aliquip sit ipsum nostrud mollit. Ullamco mollit elit amet laboris tempor ad proident. Pariatur nostrud esse dolor ipsum minim. Laborum dolor esse sint ut ad eu laboris pariatur enim. Nostrud magna esse occaecat ipsum ex labore velit velit ad ad.\r\n",
     "guid": "9f8ddb2a-52d6-4557-8c8c-b2b2f7d31a51",
     "name": "Vivian Emerson",
@@ -399,10 +399,10 @@ const trainers = [{
       "Core",
       "Yoga"
     ],
-    "picture": "http://placehold.it/100x100?text=Spoort",
+    "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/krystynheide/128.jpg",
     "about": "Ex ex occaecat adipisicing ullamco irure dolore laborum occaecat cillum minim nulla. Pariatur deserunt magna enim adipisicing dolore enim exercitation commodo reprehenderit id ad. Veniam ut exercitation ipsum deserunt nulla occaecat veniam veniam amet non. Dolore nisi cupidatat minim consectetur velit est aliqua magna exercitation incididunt tempor velit eiusmod. Velit eiusmod incididunt voluptate fugiat consectetur adipisicing tempor enim et enim officia consectetur fugiat esse.\r\n",
     "guid": "547c8654-03da-4ba4-8394-79985310f05f",
-    "name": "Lilly Berry",
+    "name": " Berry",
     "gender": "female",
     "age": 24,
     "registered": "2015-02-10T04:59:46 -01:00",
@@ -418,7 +418,7 @@ const trainers = [{
   }];
 
 
-class Trainer extends React.Component {
+class Trainers extends React.Component {
   constructor(props){
     super(props);
     this.state = {
@@ -465,4 +465,4 @@ class Trainer extends React.Component {
   }
 }
 
-export default Trainer;
+export default Trainers;
