@@ -1,0 +1,27 @@
+.sidebar--outer {
+  width: 285px;
+  background: $slate;
+  color: $white;
+  border-radius: 2px;
+  float: right;
+  .sidebar--inner {
+    padding: 20px 50px;
+    label {
+      text-transform: uppercase;
+      color: $medium-grey;
+      font-weight: 400;
+    }
+    .checkbox input[type="checkbox"] {
+      position: relative;
+      margin-left: 0;
+      margin-right: 8px;
+    }
+    .inline {
+      display: inline-flex;
+      align-items: baseline;
+      span:first-of-type {
+        margin-right: 14px;
+      }
+    }
+  }
+}

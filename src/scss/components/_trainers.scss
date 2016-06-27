@@ -1,0 +1,72 @@
+.card--outer {
+  position: relative;
+  display: inline-block;
+  margin: 28px 14px 0 0;
+  @include size(200px,380px);
+  border-radius: 2px;
+  box-shadow: 0 0 0px 1px rgba(0,0,0,.15);
+  transition: $transition;
+  &:hover {
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.15), 0 0 5px 0 rgba(0,0,0,.1);
+  }
+  &:nth-of-type(2n) {
+    margin: 0 0 0 14px;
+  }
+  .card--inner {
+    position: relative;
+    height: 100%;
+    padding: 30px 30px 10px 30px;
+    color: $dark-grey;
+    .avatar {
+      @include size(80px,80px);
+      border-radius: 50%;
+      float: left;
+    }
+    .information {
+      display: flex;
+      flex-direction: column;
+      margin-left: 105px;
+      margin-top: 10px;
+    }
+    .fullname {
+      font-size: 19px;
+      margin: 0;
+    }
+    .discipline {
+      font-size: 14px;
+      color: $medium-grey;
+    }
+    .details {
+      i {
+        color: $medium-grey;
+        margin-right: 8px;
+      }
+      .time {
+        margin-left: 25px;
+      }
+    }
+  }
+}
+
+.btn {
+  @include size(50px,330px);
+  border: 0px;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  &.btn--primary {
+    background-color: transparent;
+    box-shadow: 0 0 0 2px $primary inset;
+    color: $primary;
+    transition: $transition;
+    &:hover {
+      background-color: $primary;
+      box-shadow: none;
+      color: $white;
+    }
+  }
+}

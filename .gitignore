@@ -1,0 +1,8 @@
+logs
+*.log
+npm-debug.log*
+.grunt
+node_modules
+jspm_packages
+.npm
+prepros.cfg

@@ -1,0 +1,42 @@
+nav {
+  .topnav {
+    height: 100px;
+    font-size: 16px;
+    .container {
+      display: flex;
+      height: 100%;
+      justify-content: flex-end;
+      align-items: center;
+      a {
+        color: $medium-grey;
+        margin-right: 14px;
+        text-decoration: none;
+        transition: $transition;
+        &:last-of-type {
+          margin-right: 0;
+        }
+        &.active {
+          color: $dark-grey;
+        }
+        &:hover {
+          color: $dark-grey;
+        }
+      }
+      span {
+        color: $medium-grey;
+        margin-right: 14px;
+      }
+    }
+  }
+  .subnav {
+    background-color: $slate;
+    color: $white;
+    padding: 20px 0;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    p {
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+footer {
+  font-size: 12px;
+  color: $medium-grey;
+  padding: 56px 0 14px 0;
+  .container {
+    a {
+      color: $medium-grey;
+      margin-right: 24px;
+      transition: $transition;
+      &:last-of-type {
+        margin-right: 0;
+      }
+      &:hover {
+        color: $dark-grey;
+      }
+    }
+  }
+}
