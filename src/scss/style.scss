@@ -14,7 +14,7 @@ body {
 
 .TrainerList {
   position: relative;
-  width: 810px;
+  width: 790px;
   margin: 0;
 }
 
@@ -39,3 +39,13 @@ body {
 @import "./components/footer";
 
 @import "./advanced/controls";
+@import "./components/paginate";
+
+.rc-pagination {
+  margin-top: 14px;
+  margin-left: 15px;
+}
+.rc-pagination-prev,
+.rc-pagination-next {
+  display: none !important; // SHAME
+}
