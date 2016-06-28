@@ -1,36 +1,27 @@
-import React from 'react';
-import _     from 'lodash';
-import            'whatwg-fetch';
+import React    from 'react';
+import _        from 'lodash';
+import Paginatr from 'react-paginatr'
+import               'whatwg-fetch';
 
 
-const trainers = require("json!./../../../json/source.json");
+const trainers = require("json!./../../../json/source.json")
 
-const locations = _
-  .chain(trainers)
-  .map('location')
-  .uniq()
-  .map((location) => {
-    return {
-      label: location, value: location
-    };
-  })
-  .value();
+const locations = _.chain(trainers).map('location').uniq().map((location) => {
+  return {
+    label: location, value: location
+  }
+}).value()
 
-const types = _
-  .chain(trainers)
-  .map('type')
-  .uniq()
-  .map((type) => {
-    return {
-      label: type, value: type
-    };
-  })
-  .value();
+const types = _.chain(trainers).map('type').uniq().map((type) => {
+  return {
+    label: type, value: type
+  }
+}).value()
 
 
 class Trainers extends React.Component {
   constructor(props){
-    super(props);
+    super(props)
     this.logChangeLocation = this.logChangeLocation.bind(this);
     this.logChangeType = this.logChangeType.bind(this);
     this.state = {
@@ -45,24 +36,14 @@ class Trainers extends React.Component {
 
 
   logChangeLocation(val) {
-    this.setState({locationSelection: val});
+    this.setState({locationSelection: val})
   }
   logChangeType(val) {
-    this.setState({typeSelection: val});
+    this.setState({typeSelection: val})
   }
-  filterPeople() {
-    const search = {};
-		if (this.state.countrySelection) {
-			search.country = this.state.countrySelection;
-		}
-		if (this.state.departmentSelection) {
-			search.department = this.state.departmentSelection;
-		}
-    return _.filter(this.state.trainers, search);
-	}
 
   render() {
-    const selectedPeople = this.filterPeople();
+    const selectedPeople = this.filterPeople()
     const peopleElements = selectedPeople.map((trainer) => {
       return(
         <div className='card--outer' key={trainer.guid}>
@@ -74,11 +55,11 @@ class Trainers extends React.Component {
               <div className='details'>
                 <span className='cost'>
                   <i className='fa fa-usd'></i>
-                  <span>25</span>
+                  <span>{trainer.price}</span>
                 </span>
                 <span className='time'>
                   <i className='fa fa-clock-o'></i>
-                  <span>0:45</span>
+                  <span>{trainer.time}</span>
                 </span>
               </div>
             </div>

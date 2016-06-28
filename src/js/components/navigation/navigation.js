@@ -2,8 +2,10 @@ import React from 'react';
 
 class Navigation extends React.Component {
   constructor(props){
-    super(props);
-    this.state = {};
+    super(props)
+    this.state = {
+
+    }
   }
 
   render() {
@@ -22,7 +24,7 @@ class Navigation extends React.Component {
           <p>Find Trainers to match your needs</p>
         </div>
       </nav>
-    );
+    )
   }
 }
 

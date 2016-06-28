@@ -16,9 +16,9 @@
     "json-loader": "^0.5.4",
     "lodash": "^4.13.1",
     "node-fetch": "^1.5.3",
-    "rc-pagination": "^1.5.3",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
+    "react-paginatr": "^0.1.6",
     "webpack": "^1.13.1",
     "whatwg-fetch": "^1.0.0"
   },
