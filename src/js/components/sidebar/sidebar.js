@@ -51,7 +51,7 @@ class Sidebar extends React.Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 

@@ -40,7 +40,20 @@
       text-overflow: ellipsis;
     }
     .details {
+      display: inline-flex;
+      align-items: flex-start;
+      .cost, .time {
+        display: flex;
+        flex-direction: row;
+        width: 30%;
+      }
       i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid;
+        border-radius: 50%;
+        @include size(25px,25px);
         color: $medium-grey;
         margin-right: 8px;
       }

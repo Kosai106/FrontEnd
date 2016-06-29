@@ -1,31 +1,127 @@
-import React      from 'react';
-import Trainers   from './trainers';
-import Sidebar    from './../sidebar/sidebar';
+import React			from 'react';
+import _ 					from 'lodash';
+import Paginatr 	from 'react-paginatr'
+import								 'whatwg-fetch';
+
+const trainers = require("json!./../../../json/source.json")
+
+const locations = _.chain(trainers).map('location').uniq().map((location) => {
+	return {label: location, value: location}
+}).value()
+
+const types = _.chain(trainers).map('type').uniq().map((type) => {
+	return {label: type, value: type}
+}).value()
 
 class TrainersList extends React.Component {
-  constructor(props){
-    super(props)
-    this.state = {
-    }
-  }
+	constructor(props) {
+		super(props)
+		this.logChangeLocation = this.logChangeLocation.bind(this);
+		this.logChangeType = this.logChangeType.bind(this);
+		this.state = {
+			trainers
+		}
+	}
 
-  render() {
-    return (
-      <div className='row'>
-        <div className="results">
-          <p><span>Search</span> • <span>35 Coaches</span> match your search</p>
-        </div>
-        <div className='col-md-9'>
-          <div className='TrainerList'>
-            <Trainers />
-          </div>
-        </div>
-        <div className='col-md-3'>
-        <Sidebar />
-      </div>
-    </div>
-    )
-  }
+	filterPeople() {
+		const search = {};
+		return _.filter(this.state.trainers, search);
+	}
+	logChangeLocation(val) {
+		this.setState({locationSelection: val})
+	}
+	logChangeType(val) {
+		this.setState({typeSelection: val})
+	}
+
+	render() {
+		const selectedPeople = this.filterPeople()
+		const peopleElements = selectedPeople.map((trainer) => {
+			return (
+				<div className='card--outer' key={trainer.guid}>
+					<div className='card--inner'>
+						<img src={trainer.picture} className='avatar'></img>
+						<div className='information'>
+							<p className='fullname'>{trainer.name}</p>
+							<p className='discipline'>{trainer.discipline}</p>
+							<div className='details'>
+								<span className='cost'>
+									<i className='fa fa-usd'></i>
+									<span>{trainer.price}</span>
+								</span>
+								<span className='time'>
+									<i className='fa fa-clock-o'></i>
+									<span>{trainer.time}</span>
+								</span>
+							</div>
+						</div>
+						<div className='btn btn--primary'>View details</div>
+					</div>
+				</div>
+			)
+		})
+		return (
+			<div className='row'>
+				<div className="results">
+					<p>
+						<span>Search</span>
+						•
+						<span>35 Coaches</span>
+						match your search</p>
+				</div>
+				<div className='col-md-9'>
+					<div className='TrainerList'>
+						{peopleElements}
+					</div>
+				</div>
+				<div className='col-md-3'>
+					<div className='sidebar--outer'>
+						<div className='sidebar--inner'>
+							<label>Location</label>
+							<div className='inline'>
+								<span className='checkbox'>
+									<input type='checkbox' value='Outdoor'></input>
+									Outdoor
+								</span>
+								<span className='checkbox'>
+									<input type='checkbox' value='Indoor'></input>
+									Indoor
+								</span>
+							</div>
+							<hr/>
+							<div className='bottom'>
+								<label>Sport type</label>
+								<span className='checkbox'>
+									<input type='checkbox' value='Basketball'></input>
+									Basketball
+								</span>
+								<span className='checkbox'>
+									<input type='checkbox' value='Tennis'></input>
+									Tennis
+								</span>
+								<span className='checkbox'>
+									<input type='checkbox' value='Football'></input>
+									Football
+								</span>
+								<span className='checkbox'>
+									<input type='checkbox' value='Squash'></input>
+									Squash
+								</span>
+								<span className='checkbox'>
+									<input type='checkbox' value='Swimming'></input>
+									Swimming
+								</span>
+								<span className='checkbox'>
+									<input type='checkbox' value='Golf'></input>
+									Golf
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		)
+	}
 }
 
 export default TrainersList;
