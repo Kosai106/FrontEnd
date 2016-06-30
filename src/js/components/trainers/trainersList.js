@@ -41,11 +41,11 @@ class TrainersList extends React.Component {
 		return _.filter(this.state.trainers, search)
 	}
 	logChangeLocation(val) {
-		this.setState({locationSelection: val})
-		console.log(val)
+		this.setState({locationSelection: val.value})
+		console.log(val.value)
 	}
 	logChangeType(val) {
-		this.setState({typeSelection: val})
+		this.setState({typeSelection: val.value})
 		console.log(val.value)
 	}
 	clickBtn() {
@@ -53,8 +53,6 @@ class TrainersList extends React.Component {
 	}
 
 	render() {
-		const coaches = _.filter(trainers).length
-
 		const selectedPeople = this.filterPeople()
 		const peopleElements = selectedPeople.map((trainer) => {
 			return (
@@ -82,6 +80,7 @@ class TrainersList extends React.Component {
 				</div>
 			)
 		})
+		const coaches = _.filter(peopleElements).length
 		return (
 			<div className='row'>
 				<div className="results">
@@ -104,7 +103,7 @@ class TrainersList extends React.Component {
 								<span className='checkbox'>
 									<input
 										type='checkbox'
-										value={this.state.locations}
+										value='Outdoor'
 										onChange={this.logChangeLocation}
 									/> Outdoor
 								</span>
