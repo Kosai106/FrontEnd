@@ -1,6 +1,6 @@
 import React			from 'react';
 import _ 					from 'lodash';
-import Paginatr 	from 'react-paginatr'
+// import Paginatr 	from 'react-paginatr'
 import								 'whatwg-fetch';
 
 const trainers = require("json!./../../../json/source.json")
@@ -8,39 +8,59 @@ const trainers = require("json!./../../../json/source.json")
 const locations = _.chain(trainers).map('location').uniq().map((location) => {
 	return {label: location, value: location}
 }).value()
-
 const types = _.chain(trainers).map('type').uniq().map((type) => {
 	return {label: type, value: type}
 }).value()
+
+console.log(locations, types)
+
 
 class TrainersList extends React.Component {
 	constructor(props) {
 		super(props)
 		this.logChangeLocation = this.logChangeLocation.bind(this);
 		this.logChangeType = this.logChangeType.bind(this);
+		this.clickBtn = this.clickBtn.bind(this);
 		this.state = {
+			clicked: false,
+			locations,
+			types,
+			locationSelection: '',
+			typeSelection: '',
 			trainers
 		}
 	}
 
 	filterPeople() {
-		const search = {};
-		return _.filter(this.state.trainers, search);
+		const search = {}
+		if (this.state.locationSelection) {
+			search.location = this.state.locationSelection;
+		} if (this.state.typeSelection) {
+			search.type = this.state.typeSelection;
+		}
+		return _.filter(this.state.trainers, search)
 	}
 	logChangeLocation(val) {
 		this.setState({locationSelection: val})
+		console.log(val)
 	}
 	logChangeType(val) {
 		this.setState({typeSelection: val})
+		console.log(val.value)
+	}
+	clickBtn() {
+		this.setState({clicked: !this.state.clicked})
 	}
 
 	render() {
+		const coaches = _.filter(trainers).length
+
 		const selectedPeople = this.filterPeople()
 		const peopleElements = selectedPeople.map((trainer) => {
 			return (
 				<div className='card--outer' key={trainer.guid}>
 					<div className='card--inner'>
-						<img src={trainer.picture} className='avatar'></img>
+						<img src={trainer.picture} className='avatar' />
 						<div className='information'>
 							<p className='fullname'>{trainer.name}</p>
 							<p className='discipline'>{trainer.discipline}</p>
@@ -55,7 +75,9 @@ class TrainersList extends React.Component {
 								</span>
 							</div>
 						</div>
-						<div className='btn btn--primary'>View details</div>
+						{this.state.clicked ? (<div className="btn btn--absolute btn--primary" onClick={this.clickBtn}>{trainer.email}</div>)
+                            		:  <div className="btn btn--absolute btn--primary" onClick={this.clickBtn}>View details</div>
+          	}
 					</div>
 				</div>
 			)
@@ -66,7 +88,7 @@ class TrainersList extends React.Component {
 					<p>
 						<span>Search</span>
 						•
-						<span>35 Coaches</span>
+						<span>{coaches} Coaches </span>
 						match your search</p>
 				</div>
 				<div className='col-md-9'>
@@ -80,40 +102,57 @@ class TrainersList extends React.Component {
 							<label>Location</label>
 							<div className='inline'>
 								<span className='checkbox'>
-									<input type='checkbox' value='Outdoor'></input>
-									Outdoor
+									<input
+										type='checkbox'
+										value={this.state.locations}
+										onChange={this.logChangeLocation}
+									/> Outdoor
 								</span>
 								<span className='checkbox'>
-									<input type='checkbox' value='Indoor'></input>
-									Indoor
+									<input
+										type='checkbox'
+										value='Indoor'
+									/> Indoor
 								</span>
 							</div>
 							<hr/>
 							<div className='bottom'>
 								<label>Sport type</label>
 								<span className='checkbox'>
-									<input type='checkbox' value='Basketball'></input>
-									Basketball
+									<input
+										type='checkbox'
+										value='Basketball'
+									/> Basketball
 								</span>
 								<span className='checkbox'>
-									<input type='checkbox' value='Tennis'></input>
-									Tennis
+									<input
+										type='checkbox'
+										value='Tennis'
+									/> Tennis
 								</span>
 								<span className='checkbox'>
-									<input type='checkbox' value='Football'></input>
-									Football
+									<input
+										type='checkbox'
+										value='Football'
+									/> Football
 								</span>
 								<span className='checkbox'>
-									<input type='checkbox' value='Squash'></input>
-									Squash
+									<input
+										type='checkbox'
+										value='Squash'
+									/> Squash
 								</span>
 								<span className='checkbox'>
-									<input type='checkbox' value='Swimming'></input>
-									Swimming
+									<input
+										type='checkbox'
+										value='Swimming'
+									/> Swimming
 								</span>
 								<span className='checkbox'>
-									<input type='checkbox' value='Golf'></input>
-									Golf
+									<input
+										type='checkbox'
+										value='Golf'
+									/> Golf
 								</span>
 							</div>
 						</div>

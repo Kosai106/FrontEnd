@@ -28,9 +28,11 @@ body {
     color: $secondary;
     font-size: 21px;
     text-transform: uppercase;
+    margin-right: 14px;
   }
   span:last-of-type {
     color: $dark-grey;
+    margin-left: 14px;
   }
 }
 
@@ -39,13 +41,3 @@ body {
 @import "./components/footer";
 
 @import "./advanced/controls";
-@import "./components/paginate";
-
-.rc-pagination {
-  margin-top: 14px;
-  margin-left: 15px;
-}
-.rc-pagination-prev,
-.rc-pagination-next {
-  display: none !important; // SHAME
-}

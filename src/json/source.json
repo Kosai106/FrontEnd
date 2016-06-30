@@ -21,7 +21,9 @@
     "company": "ZOARERE",
     "isActive": true,
     "price": 25,
-    "time": "0:45"
+    "time": "0:45",
+    "location": "Indoor",
+    "type": "Basketball"
   },
   {
     "discipline": [
@@ -46,7 +48,9 @@
     "company": "BYTREX",
     "isActive": false,
     "price": 45,
-    "time": "1:25"
+    "time": "1:25",
+    "location": "Indoor",
+    "type": "Basketball"
   },
   {
     "discipline": [
@@ -71,7 +75,9 @@
     "company": "EYEWAX",
     "isActive": true,
     "price": 15,
-    "time": "0:35"
+    "time": "0:35",
+    "location": "Indoor",
+    "type": "Basketball"
   },
   {
     "discipline": [
@@ -96,7 +102,9 @@
     "company": "LUXURIA",
     "isActive": true,
     "price": 75,
-    "time": "2:00"
+    "time": "2:00",
+    "location": "Outdoor",
+    "type": "Football"
   },
   {
     "discipline": [
@@ -121,7 +129,9 @@
     "company": "EXODOC",
     "isActive": false,
     "price": 45,
-    "time": "1:25"
+    "time": "1:25",
+    "location": "Indoor",
+    "type": "Swimming"
   },
   {
     "discipline": [
@@ -146,7 +156,9 @@
     "company": "ROCKABYE",
     "isActive": false,
     "price": 25,
-    "time": "0:45"
+    "time": "0:45",
+    "location": "Indoor",
+    "type": "Basketball"
   },
   {
     "discipline": [
@@ -171,7 +183,9 @@
     "company": "POSHOME",
     "isActive": false,
     "price": 30,
-    "time": "1:00"
+    "time": "1:00",
+    "location": "Outdoor",
+    "type": "Golf"
   },
   {
     "discipline": [
@@ -196,7 +210,9 @@
     "company": "EXTRO",
     "isActive": false,
     "price": 55,
-    "time": "1:35"
+    "time": "1:35",
+    "location": "Indoor",
+    "type": "Squash"
   },
   {
     "discipline": [
@@ -221,7 +237,9 @@
     "company": "AQUOAVO",
     "isActive": true,
     "price": 75,
-    "time": "1:55"
+    "time": "1:55",
+    "location": "Indoor",
+    "type": "Tennis"
   },
   {
     "discipline": [
@@ -246,7 +264,9 @@
     "company": "WATERBABY",
     "isActive": true,
     "price": 10,
-    "time": "0:25"
+    "time": "0:25",
+    "location": "Outdoor",
+    "type": "Golf"
   },
   {
     "discipline": [
@@ -271,7 +291,9 @@
     "company": "TURNLING",
     "isActive": true,
     "price": 30,
-    "time": "0:45"
+    "time": "0:45",
+    "location": "Indoor",
+    "type": "Basketball"
   },
   {
     "discipline": [
@@ -296,7 +318,9 @@
     "company": "MINGA",
     "isActive": false,
     "price": 17,
-    "time": "0:28"
+    "time": "0:28",
+    "location": "Indoor",
+    "type": "Squash"
   },
   {
     "discipline": [
@@ -321,7 +345,9 @@
     "company": "HYDROCOM",
     "isActive": false,
     "price": 40,
-    "time": "0:45"
+    "time": "0:45",
+    "location": "Outdoor",
+    "type": "Football"
   },
   {
     "discipline": [
@@ -346,7 +372,9 @@
     "company": "ZILIDIUM",
     "isActive": true,
     "price": 45,
-    "time": "1:25"
+    "time": "1:25",
+    "location": "Indoor",
+    "type": "Swimming"
   },
   {
     "discipline": [
@@ -371,7 +399,9 @@
     "company": "XTH",
     "isActive": true,
     "price": 15,
-    "time": "0:25"
+    "time": "0:25",
+    "location": "Outdoor",
+    "type": "Tennis"
   },
   {
     "discipline": [
@@ -396,7 +426,9 @@
     "company": "BIFLEX",
     "isActive": true,
     "price": 45,
-    "time": "1:25"
+    "time": "1:25",
+    "location": "Indoor",
+    "type": "Swimming"
   },
   {
     "discipline": [
@@ -421,7 +453,9 @@
     "company": "TUBALUM",
     "isActive": false,
     "price": 45,
-    "time": "1:25"
+    "time": "1:25",
+    "location": "Indoor",
+    "type": "Tennis"
   },
   {
     "discipline": [
@@ -446,5 +480,7 @@
     "company": "ELEMANTRA",
     "isActive": false,
     "price": 30,
-    "time": "1:00"
+    "time": "1:00",
+    "location": "Outdoor",
+    "type": "Golf"
   }]

@@ -68,12 +68,14 @@
   @include size(50px,330px);
   border: 0px;
   border-radius: 2px;
-  position: absolute;
-  bottom: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
+  &.btn--absolute {
+    position: absolute;
+    bottom: 10px;
+  }
   &.btn--primary {
     background-color: transparent;
     box-shadow: 0 0 0 2px $primary inset;
@@ -81,6 +83,17 @@
     transition: $transition;
     &:hover {
       background-color: $primary;
+      box-shadow: none;
+      color: $white;
+    }
+  }
+  &.btn--secondary {
+    background-color: transparent;
+    box-shadow: 0 0 0 2px $secondary inset;
+    color: $secondary;
+    transition: $transition;
+    &:hover {
+      background-color: $secondary;
       box-shadow: none;
       color: $white;
     }
