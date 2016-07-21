@@ -1,6 +1,10 @@
 # FrontEnd &middot; A ReactJS Exercise
 
-## Building & running
+### Mockup
+
+![Mockup of the design](https://raw.githubusercontent.com/Kosai106/FrontEnd/master/mockup.jpg)
+
+### Building & running
 
 To prepare everything needed, run the following commands.
 
