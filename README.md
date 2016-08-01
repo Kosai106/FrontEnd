@@ -1,6 +1,6 @@
 # FrontEnd &middot; A ReactJS Exercise
 
-### Mockup
+### Mockup - (Provided by client)
 
 ![Mockup of the design](https://raw.githubusercontent.com/Kosai106/FrontEnd/master/mockup.jpg)
 
