@@ -4,6 +4,10 @@
     "react",
   ],
   "settings": {
+    "import/resolve": {
+      "extentions": [ ".es6", ".js", ".jsx" ],
+    },
+    "import/parser": "babel-eslint",
     "react": {
       "pragma": "React",
       "version": "15.0",
@@ -24,8 +28,16 @@
     "no-unused-vars" : [1],
     "no-undef" : [2],
     "max-len": [0],
+    "indent": [2, "tab"],
+    "no-multi-spaces": [0],
+    "jsx-a11y/no-static-element-interactions": [0],
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
+    "react/jsx-boolean-value": [0],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/forbid-prop-types": [0], #TEMPORARY
+    "react/jsx-indent-props": [0],
+    "react/jsx-indent": ["error", 'tab'],
   },
   "parserOptions": {
     "sourceType": "module",

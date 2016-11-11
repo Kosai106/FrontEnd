@@ -1,7 +1,7 @@
 [{
     "discipline": [
-      "Crossfit, ",
-      "Yoga, ",
+      "Crossfit",
+      "Yoga",
       "Fitness"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/stylecampaign/128.jpg",
@@ -22,13 +22,13 @@
     "isActive": true,
     "price": 25,
     "time": "0:45",
-    "location": "Indoor",
+    "location": "Outdoor",
     "type": "Basketball"
   },
   {
     "discipline": [
-      "Power, ",
-      "Core Strength, ",
+      "Power",
+      "Core Strength",
       "Bodybuilding"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/annapickard/128.jpg",
@@ -54,8 +54,8 @@
   },
   {
     "discipline": [
-      "Core, ",
-      "Core, ",
+      "Core",
+      "Core",
       "Balance"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/beastydesign/128.jpg",
@@ -81,8 +81,8 @@
   },
   {
     "discipline": [
-      "Power, ",
-      "Core Strength, ",
+      "Power",
+      "Core Strength",
       "Yoga"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/uxceo/128.jpg",
@@ -108,8 +108,8 @@
   },
   {
     "discipline": [
-      "Crossfit, ",
-      "Balance, ",
+      "Crossfit",
+      "Balance",
       "Core Strength"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/allisongrayce/128.jpg",
@@ -135,8 +135,8 @@
   },
   {
     "discipline": [
-      "Core, ",
-      "Yoga, ",
+      "Core",
+      "Yoga",
       "Fitness"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/mlane/128.jpg",
@@ -162,8 +162,8 @@
   },
   {
     "discipline": [
-      "Crossfit, ",
-      "Fitness, ",
+      "Crossfit",
+      "Fitness",
       "Bodybuilding"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/esthercrawford/128.jpg",
@@ -189,8 +189,8 @@
   },
   {
     "discipline": [
-      "Crossfit, ",
-      "Bodybuilding, ",
+      "Crossfit",
+      "Bodybuilding",
       "Core"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/chadengle/128.jpg",
@@ -216,8 +216,8 @@
   },
   {
     "discipline": [
-      "Core Strength, ",
-      "Bodybuilding, ",
+      "Core Strength",
+      "Bodybuilding",
       "Core Strength"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/jm_denis/128.jpg",
@@ -243,8 +243,8 @@
   },
   {
     "discipline": [
-      "Yoga, ",
-      "Core, ",
+      "Yoga",
+      "Core",
       "Balance"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg",
@@ -270,8 +270,8 @@
   },
   {
     "discipline": [
-      "Core, ",
-      "Core Strength, ",
+      "Core",
+      "Core Strength",
       "Balance"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/evagiselle/128.jpg",
@@ -297,8 +297,8 @@
   },
   {
     "discipline": [
-      "Bodybuilding, ",
-      "Bodybuilding, ",
+      "Bodybuilding",
+      "Bodybuilding",
       "Bodybuilding"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/nuraika/128.jpg",
@@ -324,8 +324,8 @@
   },
   {
     "discipline": [
-      "Fitness, ",
-      "Core Strength, ",
+      "Fitness",
+      "Core Strength",
       "Power"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/boheme/128.jpg",
@@ -351,8 +351,8 @@
   },
   {
     "discipline": [
-      "Core Strength, ",
-      "Balance, ",
+      "Core Strength",
+      "Balance",
       "Power"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/tutvid/128.jpg",
@@ -378,8 +378,8 @@
   },
   {
     "discipline": [
-      "Yoga, ",
-      "Bodybuilding, ",
+      "Yoga",
+      "Bodybuilding",
       "Core Strength"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg",
@@ -405,8 +405,8 @@
   },
   {
     "discipline": [
-      "Power, ",
-      "Bodybuilding, ",
+      "Power",
+      "Bodybuilding",
       "Core"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/dannpetty/128.jpg",
@@ -432,8 +432,8 @@
   },
   {
     "discipline": [
-      "Crossfit, ",
-      "Fitness, ",
+      "Crossfit",
+      "Fitness",
       "Crossfit"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg",
@@ -459,8 +459,8 @@
   },
   {
     "discipline": [
-      "Fitness, ",
-      "Core, ",
+      "Fitness",
+      "Core",
       "Yoga"
     ],
     "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/krystynheide/128.jpg",
