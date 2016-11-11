@@ -10,12 +10,12 @@ class TrainersList extends React.Component {
 		super(props);
 		this.handleLocationChange = this.handleLocationChange.bind(this);
 		this.handleTypeChange = this.handleTypeChange.bind(this);
-		this.handleTestChange = this.handleTestChange.bind(this);
+		this.handleDisciplineChange = this.handleDisciplineChange.bind(this);
 		this.state = {
 			content,
 			location: [],
 			type: [],
-			test: [],
+			discipline: [],
 		};
 	}
 	handleLocationChange(event) {
@@ -28,9 +28,9 @@ class TrainersList extends React.Component {
 			type: event,
 		});
 	}
-	handleTestChange(event) {
+	handleDisciplineChange(event) {
 		this.setState({
-			test: event,
+			discipline: event,
 		});
 	}
 
@@ -46,16 +46,15 @@ class TrainersList extends React.Component {
 				return trainer.type.toLowerCase().indexOf(this.state.type) !== -1;
 			});
 		}
-		if (this.state.test) {
+		if (this.state.discipline) {
 			search = filter(search, (trainer) => {
-				return trainer.discipline.toString().toLowerCase().indexOf(this.state.test) !== -1;
+				return trainer.discipline.toString().toLowerCase().indexOf(this.state.discipline) !== -1;
 			});
 		}
 		return search;
 	}
 
 	render() {
-		console.log(this.state.test);
 		const people = this.filterPeople().map((trainer) => {
 			return (
 				<Trainers
@@ -92,10 +91,10 @@ class TrainersList extends React.Component {
 					<Sidebar
 						locationVal={this.state.location}
 						typeVal={this.state.type}
-						testVal={this.state.test}
+						disciplineVal={this.state.discipline}
 						locationClick={this.handleLocationChange}
 						typeClick={this.handleTypeChange}
-						testClick={this.handleTestChange}
+						disciplineClick={this.handleDisciplineChange}
 					/>
 				</div>
 			</div>

@@ -11,6 +11,11 @@
       color: $medium-grey;
       font-weight: 400;
     }
+		.checkbox {
+			label {
+				text-transform: none;
+			}
+		}
     .checkbox input[type="checkbox"] {
       position: relative;
       margin-left: 0;
