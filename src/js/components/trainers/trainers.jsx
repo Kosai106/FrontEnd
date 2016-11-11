@@ -13,7 +13,6 @@ class Trainers extends React.Component {
 		this.setState({
 			clicked: !this.state.clicked,
 		});
-		console.warn(`${this.props.name}, ${this.props.discipline}`);
 	}
 
 	render() {
@@ -37,7 +36,7 @@ class Trainers extends React.Component {
 					</div>
 
 					{this.state.clicked ? (<div className="btn btn--absolute btn--primary" onClick={this.toggleButton}>{this.props.email}</div>)
-															: (<div className="btn btn--absolute btn--primary" onClick={this.toggleButton}>View details</div>)
+															: (<div className="btn btn--absolute btn--primary" onClick={this.toggleButton}>Show details</div>)
 					}
 				</div>
 			</div>
@@ -53,6 +52,8 @@ Trainers.propTypes = {
 	time: React.PropTypes.string,
 	discipline: React.PropTypes.array,
 	email: React.PropTypes.string,
+	location: React.PropTypes.string,
+	type: React.PropTypes.string,
 };
 
 export default Trainers;

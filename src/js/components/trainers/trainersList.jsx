@@ -1,19 +1,9 @@
 import React from 'react';
-import { chain, filter } from 'lodash';
+import { filter } from 'lodash';
 import Sidebar from './../sidebar/sidebar';
 import Trainers from './trainers';
 
 const content = require('json!./../../../json/source.json');
-
-const countries = chain(content).map('discipline').split(',')
-	.uniq()
-	.map((discipline) => {
-		return {
-			value: discipline,
-		};
-	})
-	.value();
-console.warn(countries);
 
 class TrainersList extends React.Component {
 	constructor(props) {
@@ -42,7 +32,6 @@ class TrainersList extends React.Component {
 		this.setState({
 			test: event,
 		});
-		console.warn(event);
 	}
 
 	filterPeople() {
@@ -59,13 +48,14 @@ class TrainersList extends React.Component {
 		}
 		if (this.state.test) {
 			search = filter(search, (trainer) => {
-				return trainer.discipline.indexOf(this.state.test) < 0;
+				return trainer.discipline.toString().toLowerCase().indexOf(this.state.test) !== -1;
 			});
 		}
 		return search;
 	}
 
 	render() {
+		console.log(this.state.test);
 		const people = this.filterPeople().map((trainer) => {
 			return (
 				<Trainers
@@ -76,6 +66,8 @@ class TrainersList extends React.Component {
 					price={trainer.price}
 					time={trainer.time}
 					email={trainer.email}
+					location={trainer.location}
+					type={trainer.type}
 				/>
 			);
 		});

@@ -46,7 +46,7 @@ class Sidebar extends React.Component {
 							</div>
 						</CheckboxGroup>
 						<hr />
-						<CheckboxGroup name="test" value={this.props.testVal} onChange={this.props.testClick}>
+						<CheckboxGroup name="discipline" value={this.props.testVal} onChange={this.props.testClick}>
 							<label>Discipline</label>
 							<div className="checkbox">
 								<label><Checkbox value="crossfit" /> Crossfit</label>
@@ -85,7 +85,6 @@ Sidebar.propTypes = {
 	typeVal: React.PropTypes.array.isRequired,
 	locationClick: React.PropTypes.func.isRequired,
 	typeClick: React.PropTypes.func.isRequired,
-
 	testVal: React.PropTypes.array.isRequired,
 	testClick: React.PropTypes.func.isRequired,
 };
