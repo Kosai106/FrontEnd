@@ -1,5 +1,6 @@
 import React from 'react';
 import { Checkbox, CheckboxGroup } from 'react-checkbox-group';
+import { RadioGroup, Radio } from 'react-radio-group';
 
 class Sidebar extends React.Component {
 	constructor(props) {
@@ -11,17 +12,17 @@ class Sidebar extends React.Component {
 		return (
 			<div className="sidebar--outer">
 				<div className="sidebar--inner">
-					<CheckboxGroup name="location" value={this.props.locationVal} onChange={this.props.locationClick}>
+					<RadioGroup name="location" selectedValue={this.props.locationVal} onChange={this.props.locationClick}>
 						<label>Location</label>
 						<div className="inline">
 							<div className="checkbox">
-								<label><Checkbox value="outdoor" /> Outdoor</label>
+								<label><Radio value="outdoor" /> Outdoor</label>
 							</div>
 							<div className="checkbox">
-								<label><Checkbox value="indoor" /> Indoor</label>
+								<label><Radio value="indoor" /> Indoor</label>
 							</div>
 						</div>
-					</CheckboxGroup>
+					</RadioGroup>
 					<hr />
 					<div className="bottom">
 						<CheckboxGroup name="type" value={this.props.typeVal} onChange={this.props.typeClick}>
@@ -81,7 +82,7 @@ class Sidebar extends React.Component {
 }
 
 Sidebar.propTypes = {
-	locationVal: React.PropTypes.array.isRequired,
+	locationVal: React.PropTypes.string.isRequired,
 	typeVal: React.PropTypes.array.isRequired,
 	locationClick: React.PropTypes.func.isRequired,
 	typeClick: React.PropTypes.func.isRequired,

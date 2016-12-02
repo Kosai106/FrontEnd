@@ -13,7 +13,7 @@ class TrainersList extends React.Component {
 		this.handleDisciplineChange = this.handleDisciplineChange.bind(this);
 		this.state = {
 			content,
-			location: [],
+			location: 'outdoor',
 			type: [],
 			discipline: [],
 		};
@@ -33,7 +33,6 @@ class TrainersList extends React.Component {
 			discipline: event,
 		});
 	}
-
 	filterPeople() {
 		let search = this.state.content;
 		if (this.state.location) {

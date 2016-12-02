@@ -4,6 +4,7 @@
   color: $white;
   border-radius: 2px;
   float: right;
+	margin-right: 16px;
   .sidebar--inner {
     padding: 20px 50px;
     label {
@@ -16,7 +17,8 @@
 				text-transform: none;
 			}
 		}
-    .checkbox input[type="checkbox"] {
+    .checkbox input[type="checkbox"],
+		.checkbox input[type="radio"] {
       position: relative;
       margin-left: 0;
       margin-right: 8px;
