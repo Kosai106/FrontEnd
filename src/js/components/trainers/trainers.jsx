@@ -16,20 +16,22 @@ class Trainers extends React.Component {
 	}
 
 	render() {
+		const discipline = this.props.discipline.map((x) => { return x; }).join(', '); // Separates the discipline array with commas
+
 		return (
 			<div className="card--outer" key={this.props.guid}>
 				<div className="card--inner">
 					<img src={this.props.picture} role="presentation" className="avatar" />
 					<div className="information">
 						<p className="fullname">{this.props.name}</p>
-						<p className="discipline">{this.props.discipline}</p>
+						<p className="discipline">{discipline}</p>
 						<div className="details">
 							<span className="cost">
-								<i className="fa fa-usd" />
+								<img role="presentation" className="icon" src="./../img/money.svg" />
 								<span>{this.props.price}</span>
 							</span>
 							<span className="time">
-								<i className="fa fa-clock-o" />
+								<img role="presentation" className="icon" src="./../img/time.svg" />
 								<span>{this.props.time}</span>
 							</span>
 						</div>
