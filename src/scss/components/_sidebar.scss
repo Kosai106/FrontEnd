@@ -30,7 +30,7 @@
     .inline {
       display: inline-flex;
       align-items: baseline;
-      span:first-of-type {
+      .checkbox:first-of-type {
         margin-right: 14px;
       }
     }
