@@ -71,7 +71,7 @@ class TrainersList extends React.Component {
 		});
 
 		return (
-			<div className="row">
+			<div className="columns small-12">
 				<div className="results">
 					<p>
 						<span>Search</span>
@@ -80,13 +80,13 @@ class TrainersList extends React.Component {
 						match your search
 					</p>
 				</div>
-				<div className="col-md-9">
+				<div className="columns small-9">
 					<div className="TrainerList">
 						<h3>{this.state.refinement}</h3>
 						{people}
 					</div>
 				</div>
-				<div className="col-md-3">
+				<div className="columns small-3">
 					<Sidebar
 						locationVal={this.state.location}
 						typeVal={this.state.type}

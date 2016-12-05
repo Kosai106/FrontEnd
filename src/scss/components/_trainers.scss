@@ -47,11 +47,10 @@
         flex-direction: row;
         width: 30%;
       }
-      i {
+      .icon {
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 2px solid;
         border-radius: 50%;
         @include size(25px,25px);
         color: $medium-grey;

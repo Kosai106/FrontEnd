@@ -42,6 +42,10 @@ module.exports = {
           'style', 'css!postcss!sass'
         ),
 			},
+			{
+				test: /\.svg/,
+				loader: 'svg-url-loader',
+			},
 		],
 	},
 	postcss: function Prefixer() {

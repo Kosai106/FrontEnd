@@ -4,6 +4,7 @@
   "description": "GoSpoort test",
   "main": "webpack.config.js",
   "dependencies": {
+    "foundation-sites": "^6.2.4",
     "json-loader": "^0.5.4",
     "lodash": "^4.13.1",
     "node-fetch": "^1.5.3",

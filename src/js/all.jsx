@@ -10,12 +10,8 @@ const All = function All() {
 	return (
 		<div>
 			<Navigation />
-			<div className="container">
-				<div className="row">
-					<div className="column">
-						<TrainersList content={data} />
-					</div>
-				</div>
+			<div className="row">
+				<TrainersList content={data} />
 			</div>
 			<Footer />
 		</div>
