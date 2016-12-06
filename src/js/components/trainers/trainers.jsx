@@ -19,7 +19,7 @@ class Trainers extends React.Component {
 		const discipline = this.props.discipline.map((x) => { return x; }).join(', '); // Separates the discipline array with commas
 
 		return (
-			<div className="card--outer" key={this.props.guid}>
+			<div className="card--outer columns small-6" key={this.props.guid}>
 				<div className="card--inner">
 					<img src={this.props.picture} role="presentation" className="avatar" />
 					<div className="information">

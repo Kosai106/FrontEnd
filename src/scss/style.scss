@@ -19,16 +19,13 @@ body {
 }
 
 .TrainerList {
-  position: relative;
-  width: 790px;
-  margin: 0;
+	margin-right: 14px;
 }
 
 .results {
-  position: relative;
   font-size: 19px;
-  top: 20px;
-  padding-left: 15px;
+  padding-top: 14px*2;
+	padding-bottom: 14px*2;
   color: $medium-grey;
   span:first-of-type {
     color: $secondary;
@@ -40,6 +37,20 @@ body {
     color: $dark-grey;
     margin-left: 14px;
   }
+}
+
+.chamber--sides {
+	margin-left: 14px;
+	margin-right: 14px;
+}
+.chamber-double--sides {
+	margin-left: 14px*2;
+	margin-right: 14px*2;
+}
+
+.push-none--sides {
+	padding-left: 0;
+	padding-right: 0;
 }
 
 @import "./components/trainers";

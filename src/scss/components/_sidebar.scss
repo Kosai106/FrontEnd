@@ -1,10 +1,10 @@
 .sidebar--outer {
-  width: 285px;
   background: $slate;
   color: $white;
+	width: 100%;
   border-radius: 2px;
   float: right;
-	margin-right: 16px;
+	user-select: none;
   .sidebar--inner {
     padding: 20px 50px;
     label {

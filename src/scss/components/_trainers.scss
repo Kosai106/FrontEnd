@@ -1,22 +1,22 @@
 .card--outer {
   position: relative;
   display: inline-block;
-  margin: 28px 14px 0 0;
-  @include size(200px,380px);
+  height: 200px;
   border-radius: 2px;
-  box-shadow: 0 0 0px 1px rgba(0,0,0,.15);
-  transition: $transition;
-  &:hover {
-    box-shadow: 0 0 25px 0 rgba(0,0,0,.15), 0 0 5px 0 rgba(0,0,0,.1);
-  }
-  &:nth-of-type(2n) {
+	margin-bottom: 14px*2;
+  /*&:nth-of-type(2n) {
     margin: 0 0 0 14px;
-  }
+  }*/
   .card--inner {
     position: relative;
     height: 100%;
     padding: 30px 30px 10px 30px;
     color: $dark-grey;
+		box-shadow: 0 0 0px 1px rgba(0,0,0,.15);
+	  transition: $transition;
+	  &:hover {
+	    box-shadow: 0 0 25px 0 rgba(0,0,0,.15), 0 0 5px 0 rgba(0,0,0,.1);
+	  }
     .avatar {
       @include size(80px,80px);
       border-radius: 50%;
@@ -48,6 +48,7 @@
         width: 30%;
       }
       .icon {
+				user-select: none;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -63,14 +64,21 @@
   }
 }
 
+.column:last-child:not(:first-child),
+.columns:last-child:not(:first-child) {
+	float: left;
+}
+
 .btn {
-  @include size(50px,330px);
+	cursor: pointer;
+  @include size(50px, 330px);
   border: 0px;
   border-radius: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
+	user-select: none;
   &.btn--absolute {
     position: absolute;
     bottom: 10px;

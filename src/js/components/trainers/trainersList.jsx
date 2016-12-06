@@ -71,18 +71,15 @@ class TrainersList extends React.Component {
 		});
 
 		return (
-			<div className="columns small-12">
-				<div className="results">
-					<p>
-						<span>Search</span>
-						•
-						<span>{people.length} Coaches </span>
-						match your search
-					</p>
+			<div className="columns small-12 push-none--sides">
+				<div className="results columns small-12">
+					<span>Search</span>
+					•
+					<span>{people.length} Coaches </span>
+					match your search
 				</div>
-				<div className="columns small-9">
+				<div className="columns small-9 push-none--sides">
 					<div className="TrainerList">
-						<h3>{this.state.refinement}</h3>
 						{people}
 					</div>
 				</div>

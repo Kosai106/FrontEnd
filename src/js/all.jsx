@@ -8,11 +8,9 @@ const data = require('!json!./../json/source.json');
 
 const All = function All() {
 	return (
-		<div>
+		<div className="row">
 			<Navigation />
-			<div className="row">
-				<TrainersList content={data} />
-			</div>
+			<TrainersList content={data} />
 			<Footer />
 		</div>
   );
