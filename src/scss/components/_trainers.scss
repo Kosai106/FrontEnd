@@ -1,7 +1,6 @@
 .card--outer {
   position: relative;
   display: inline-block;
-  height: 200px;
   border-radius: 2px;
 	margin-bottom: 14px*2;
   /*&:nth-of-type(2n) {
@@ -71,18 +70,15 @@
 
 .btn {
 	cursor: pointer;
-  @include size(50px, 330px);
+  @include size(50px, 100%);
   border: 0px;
   border-radius: 2px;
   display: flex;
+	margin: 10px 0;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
 	user-select: none;
-  &.btn--absolute {
-    position: absolute;
-    bottom: 10px;
-  }
   &.btn--primary {
     background-color: transparent;
     box-shadow: 0 0 0 2px $primary inset;
