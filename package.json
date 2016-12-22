@@ -1,8 +1,20 @@
 {
   "name": "frontend",
   "version": "1.0.0",
-  "description": "GoSpoort test",
+  "description": "A small application originally build as part of an interview process with the Danish startup, GoSpoort.",
   "main": "webpack.config.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot",
+    "build": "webpack",
+    "deploy": "webpack && gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Østerkilde <kevin@oesterkilde.dk> (http://oesterkilde.dk/)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kosai106/FrontEnd.git"
+  },
   "dependencies": {
     "foundation-sites": "^6.2.4",
     "json-loader": "^0.5.4",
@@ -33,6 +45,7 @@
     "eslint-plugin-jsx-a11y": "^1.5.3",
     "eslint-plugin-react": "^5.2.2",
     "extract-text-webpack-plugin": "^1.0.1",
+    "gh-pages": "^0.12.0",
     "html-webpack-plugin": "^2.22.0",
     "node-sass": "^3.8.0",
     "postcss-loader": "^0.9.1",
@@ -42,12 +55,5 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
-  },
-  "scripts": {
-    "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot",
-    "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Kevin Østerkilde",
-  "license": "ISC"
+  }
 }

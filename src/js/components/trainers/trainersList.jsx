@@ -78,12 +78,12 @@ class TrainersList extends React.Component {
 					<span>{people.length} Coaches </span>
 					match your search
 				</div>
-				<div className="columns small-9 push-none--sides">
+				<div className="columns small-12 large-9 push-none--sides">
 					<div className="TrainerList">
 						{people}
 					</div>
 				</div>
-				<div className="columns small-3">
+				<div className="columns small-12 large-3">
 					<Sidebar
 						locationVal={this.state.location}
 						typeVal={this.state.type}

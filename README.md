@@ -1,4 +1,4 @@
-# FrontEnd &middot; A ReactJS Exercise
+# [FrontEnd &middot; A ReactJS Exercise](https://kosai106.github.io/FrontEnd/)
 
 ### Mockup - (Provided by client)
 
@@ -8,18 +8,16 @@
 
 To prepare everything needed, run the following commands.
 
-#### Dev server
+#### Start development server
 
-```
-npm install
+```bash
 npm run dev
 ```
 
-#### Build project
+#### Build production assets
 
-```
-npm install
+```bash
 npm run build
 ```
 
-### Made with <3 and coffee by Kevin Østerkilde
+### Made with <3 and coffee by [Kevin Østerkilde](http://oesterkilde.dk/)
